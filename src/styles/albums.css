@@ -1,0 +1,136 @@
+.albums {
+    background-color: #0C1C19;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: 'polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)';
+    opacity: 0;
+}
+
+.albums__main-title, .albums__content {
+    text-align: left;
+}
+
+.albums__content {
+    color: rgb(201, 201, 201);
+}
+
+.link {
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.link span {
+    border-bottom: 1px solid white;
+}
+
+.albums__skip {
+    text-align: right;
+}
+
+@media screen and (min-width: 250px) {
+    .albums {
+        padding: 40px 20px;
+    }
+
+    .albums__main-title {
+        font-size: 40px;
+        padding: 50px 0;
+    }
+
+    .albums__content {
+        font-size: 30px;
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 465px) {
+    .albums {
+        padding: 45px;
+    }
+
+    .albums__main-title {
+        font-size: 45px;
+        padding: 50px 0;
+    }
+
+    .albums__content {
+        font-size: 30px;
+        padding-bottom: 80px;
+    } 
+}
+
+@media screen and (min-width: 650px) {
+    .albums {
+        padding: 55px;
+    }
+
+    .albums__main-title {
+        font-size: 45px;
+        padding: 50px 0;
+    }
+
+    .albums__content {
+        font-size: 30px;
+        padding-bottom: 80px;
+        padding-right: 150px;
+    } 
+}
+
+@media screen and (min-width: 900px) {
+    .albums {
+        padding: 65px 80px;
+    }
+
+    .albums__main-title {
+        font-size: 45px;
+        padding: 50px 0;
+    }
+
+    .albums__content {
+        font-size: 30px;
+        padding-bottom: 80px;
+        padding-right: 300px;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    .albums {
+        padding: 50px 160px;
+    }
+
+    .albums__main-title {
+        font-size: 45px;
+        padding: 50px 0;
+    }
+
+    .albums__content {
+        font-size: 30px;
+        padding-bottom: 80px;
+        padding-right: 300px;
+    } 
+}
+
+@media screen and (min-width: 1280px) {
+    .albums {
+        padding: 50px 200px;
+    }
+
+    .albums__main-title {
+        font-size: 45px;
+        padding: 50px 0;
+    }
+
+    .albums__content {
+        font-size: 30px;
+        padding-bottom: 80px;
+        padding-right: 500px;
+    } 
+}

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+
+.contact {
+    background-color: #f0f0f0;
+    color: black;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__title {
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: -5px;
+}
+
+.contact__details {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    padding: 10px 0 20px 0;
+    letter-spacing: -0.5px;
+}
+
+.contact__container {
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__icon {
+    font-size: 25px;
+    color: dimgrey;
+}
+
+.item__content {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.item__content:hover {
+    border-bottom: 1px solid black;
+}
+
+.cta-email {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    height: 60px;
+    padding: 0 30px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 250px) {
+    .contact {
+        padding: 70px 20px;
+    }
+
+    .contact__title {
+        font-size: 80px;
+        padding: 0 0 20px 0;
+    }
+
+    .contact__details {
+        font-size: 17px;
+    }
+
+    .contact__container {
+        width: 80%;
+    }
+
+    .container__item {
+        margin: 10px 0;
+    }
+
+    .item__content {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 465px) {
+    .contact {
+        padding: 70px 20px;
+    }
+
+    .contact__title {
+        font-size: 80px;
+        padding: 0 0 20px 0;
+    }
+
+    .contact__details {
+        font-size: 17px;
+    }
+
+    .contact__container {
+        width: 60%;
+    }
+
+    .container__item {
+        margin: 15px 0;
+    }
+
+    .item__content {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .contact {
+        padding: 70px 20px;
+    }
+
+    .contact__title {
+        font-size: 80px;
+        padding: 0 0 20px 0;
+    }
+
+    .contact__details {
+        font-size: 17px;
+    }
+
+    .contact__container {
+        width: 300px;
+    }
+
+    .container__item {
+        margin: 15px 0;
+    }
+
+    .item__content {
+        font-size: 16px;
+    }
+}

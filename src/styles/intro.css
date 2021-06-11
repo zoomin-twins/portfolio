@@ -1,0 +1,122 @@
+.intro {
+    background-color: #f0f0f0;
+    color: black;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+}
+
+.intro__title, .intro__content {
+    text-align: left;
+}
+
+.intro__content {
+    color: dimgray;
+}
+
+.intro__next {
+    text-align: right;
+}
+
+@media screen and (min-width: 250px) {
+    .intro {
+        padding: 40px 20px;
+    }
+
+    .intro__title {
+        margin: 40px 0;
+        font-size: 45px;
+    }
+    .intro__content {
+        margin: 40px 0;
+        font-size: 32px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 465px) {
+    .intro {
+        padding: 40px 80px 40px 40px;
+    }
+
+    .intro__title {
+        margin: 40px 0;
+        font-size: 50px;
+    }
+    .intro__content {
+        margin: 40px 0;
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .intro {
+        padding: 50px;
+    }
+
+    .intro__title {
+        margin: 50px 0;
+        font-size: 55px;
+    }
+
+    .intro__content {
+        margin: 50px 0;
+        font-size: 28px;
+        padding-right: 120px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .intro {
+        padding: 80px;
+    }
+
+    .intro__title {
+        margin: 50px 0;
+        font-size: 55px;
+    }
+
+    .intro__content {
+        margin: 50px 0;
+        font-size: 28px;
+        padding-right: 240px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        padding: 80px 100px;
+    }
+
+    .intro__title {
+        margin: 50px 0;
+        font-size: 60px;
+        margin-right: 400px;
+    }
+
+    .intro__content {
+        margin: 50px 0;
+        font-size: 32px;
+        padding-right: 400px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        padding: 80px 190px;
+    }
+
+    .intro__title {
+        margin: 50px 0;
+        font-size: 60px;
+    }
+
+    .intro__content {
+        margin: 50px 0;
+        font-size: 32px;
+        padding-right: 500px;
+    }
+}
